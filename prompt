@@ -1,0 +1,50 @@
+**Prompt for AI Development of 'CodeCore' Android Application**
+
+**Objective:** Design a comprehensive and detailed plan for developing a readily deployable Android application titled 'CodeCore'. The app should focus on computer science fundamentals and integrate features that enhance user experience, security, and ease of content management.
+
+**Features and Functionalities:**
+
+1. **User Authentication:**
+   - Create a secure login interface for the admin to upload educational materials.
+   - Implement Google authentication for new users to access uploaded materials.
+
+2. **Content Management:**
+   - Develop a content management system that allows the admin to upload, edit, and delete educational materials.
+   - Ensure that materials can be organized into categories (e.g., Operating Systems, Data Structures).
+
+3. **Learning Pathway:**
+   - Design a roadmap learning map feature where users can select a category (e.g., Operating Systems) to view all lessons as interactive buttons.
+   - Each button, when clicked, should trigger a PDF file to open within the app, eliminating the need for database storage.
+
+4. **AI Voice Assistant:**
+   - Integrate an AI voice assistant that uses natural language processing to respond to user queries about computer science fundamentals.
+
+5. **User Interface:**
+   - Create an engaging and interactive user interface that enhances user experience.
+   - Include a toggle feature for users to switch between dark mode and light mode seamlessly.
+
+6. **Feedback Mechanism:**
+   - Implement a separate tab for users to provide feedback on material quality and user expectations.
+   - Ensure feedback is collected and stored securely for review.
+
+7. **Deployment:**
+   - Outline the steps required to prepare the app for deployment on the Google Play Store.
+   - Include security verification processes and compliance with Play Store policies.
+   - Provide a checklist for testing app functionality, user experience, and security before submission.
+   - Prepare the app in production-ready format and compress it into APK for testing on personal Android devices.
+
+8. **Documentation:**
+   - Prepare comprehensive documentation covering:
+     - Development process
+     - Architecture diagrams and design decisions
+     - API integration details
+     - User guides for both admin and end-users
+   - Ensure best practices for security, user engagement, and app performance are documented.
+
+**Requirements:**
+- The final product should be a fully functional Android application, ready for deployment.
+- The application should be optimized for performance and security, adhering to the latest Android development standards.
+- Provide the entire source code along with necessary libraries and dependencies for the app to function seamlessly.
+
+**End Goal:**
+Deliver a complete, tested, and deployable Android application, 'CodeCore', that meets all outlined specifications and offers an intuitive learning experience for users.
