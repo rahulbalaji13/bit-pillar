@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1077676132733",
+    "project_id": "codecore-d0139",
+    "storage_bucket": "codecore-d0139.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077676132733:android:8c271e90e1151260152414",
+        "android_client_info": {
+          "package_name": "com.codecore.codecore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077676132733-aj9b9pfqnm538m6e8b51vlapgddovpon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVNdYCoAiVyCkLV8D24lgy2Ye3q4qjCbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077676132733-aj9b9pfqnm538m6e8b51vlapgddovpon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
