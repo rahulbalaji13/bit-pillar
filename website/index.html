@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeCore App Showcase</title>
+    <meta
+      name="description"
+      content="An attractive website that simulates the installed Android app experience for CodeCore."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body id="top">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="hero shell">
+      <nav class="topbar">
+        <div class="brand">
+          <div class="brand-mark">C</div>
+          <div>
+            <p class="eyebrow">Installed Android experience</p>
+            <h1>CodeCore</h1>
+          </div>
+        </div>
+        <a class="ghost-button" href="#experience">Preview the app</a>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <span class="pill">Now presented as a functioning website</span>
+          <h2>See the Android app after installation, beautifully staged in the browser.</h2>
+          <p>
+            This showcase simulates the first moments inside CodeCore: welcome flow, learning home,
+            AI guidance, course detail, and your saved study space — all wrapped in polished phone
+            frames and responsive web design.
+          </p>
+          <div class="cta-row">
+            <a class="primary-button" href="#experience">Launch simulation</a>
+            <a class="secondary-button" href="#highlights">See highlights</a>
+          </div>
+          <ul class="stats">
+            <li>
+              <strong>5</strong>
+              <span>Simulated app pages</span>
+            </li>
+            <li>
+              <strong>24/7</strong>
+              <span>Learning-first feel</span>
+            </li>
+            <li>
+              <strong>100%</strong>
+              <span>Static and ready to open</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-device-stack" aria-hidden="true">
+          <div class="floating-card card-left">
+            <span>AI mentor</span>
+            <strong>Ask about recursion</strong>
+            <p>Voice-style guidance with concise learning answers.</p>
+          </div>
+          <div class="phone-frame mini-frame">
+            <div class="phone-screen onboarding-gradient">
+              <div class="mini-content">
+                <p class="mini-label">Installed successfully</p>
+                <h3>Welcome back to smarter CS study.</h3>
+                <div class="mini-button">Open app</div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card card-right">
+            <span>Progress</span>
+            <strong>78% weekly goal</strong>
+            <p>Track streaks, saved lessons, and next topics.</p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="shell">
+      <section id="highlights" class="highlights">
+        <article>
+          <span>Immersive presentation</span>
+          <h3>Android-style screens inside premium phone mockups.</h3>
+        </article>
+        <article>
+          <span>Easy to open</span>
+          <h3>No build step required — just open <code>website/index.html</code>.</h3>
+        </article>
+        <article>
+          <span>Interactive</span>
+          <h3>Use the screen tabs below to switch between simulated app pages.</h3>
+        </article>
+      </section>
+
+      <section id="experience" class="experience">
+        <div class="section-heading">
+          <span class="pill dark">Interactive app simulation</span>
+          <h2>Tap through the installed app journey.</h2>
+          <p>
+            Each state below recreates an Android screen so visitors can understand the product story
+            without installing the APK.
+          </p>
+        </div>
+
+        <div class="simulator-layout">
+          <div class="screen-selector" role="tablist" aria-label="Simulated app pages">
+            <button class="screen-tab active" data-screen="welcome" role="tab" aria-selected="true">
+              Welcome
+            </button>
+            <button class="screen-tab" data-screen="home" role="tab" aria-selected="false">
+              Home
+            </button>
+            <button class="screen-tab" data-screen="assistant" role="tab" aria-selected="false">
+              AI Assistant
+            </button>
+            <button class="screen-tab" data-screen="course" role="tab" aria-selected="false">
+              Course
+            </button>
+            <button class="screen-tab" data-screen="profile" role="tab" aria-selected="false">
+              Profile
+            </button>
+          </div>
+
+          <div class="phone-frame main-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <section class="app-screen active" data-screen="welcome">
+                <div class="status-row">
+                  <span>9:41</span>
+                  <span>5G 100%</span>
+                </div>
+                <div class="welcome-screen">
+                  <div class="welcome-badge">CodeCore installed</div>
+                  <h3>Build your computer science foundation with confidence.</h3>
+                  <p>
+                    Curated lessons, AI explanations, and guided study paths come together in one
+                    student-friendly experience.
+                  </p>
+                  <div class="feature-pills">
+                    <span>Structured topics</span>
+                    <span>Voice-style AI help</span>
+                    <span>Offline-ready notes</span>
+                  </div>
+                  <div class="welcome-card">
+                    <p>Today’s focus</p>
+                    <strong>Algorithms • Data Structures • Databases</strong>
+                  </div>
+                  <button class="screen-button">Start learning</button>
+                </div>
+              </section>
+
+              <section class="app-screen" data-screen="home">
+                <div class="app-header compact">
+                  <div>
+                    <p class="muted">Good evening</p>
+                    <h3>Ada</h3>
+                  </div>
+                  <div class="avatar">A</div>
+                </div>
+                <div class="search-bar">Search lessons, PDFs, videos, quizzes...</div>
+                <div class="progress-card">
+                  <div>
+                    <p class="muted">Weekly study goal</p>
+                    <strong>4.7 / 6 hours</strong>
+                  </div>
+                  <span>78%</span>
+                </div>
+                <div class="section-row">
+                  <h4>Continue learning</h4>
+                  <span>See all</span>
+                </div>
+                <div class="course-strip">
+                  <article class="course-card purple">
+                    <p>Data Structures</p>
+                    <strong>Stacks & Queues</strong>
+                    <span>12 min left</span>
+                  </article>
+                  <article class="course-card teal">
+                    <p>Algorithms</p>
+                    <strong>Sorting Basics</strong>
+                    <span>Up next</span>
+                  </article>
+                </div>
+                <div class="section-row">
+                  <h4>Recommended today</h4>
+                  <span>Smart picks</span>
+                </div>
+                <ul class="lesson-list">
+                  <li><strong>Binary search fundamentals</strong><span>Article • 8 min</span></li>
+                  <li><strong>Database normalization cheatsheet</strong><span>PDF • Saved</span></li>
+                  <li><strong>Time complexity explained</strong><span>Video • 14 min</span></li>
+                </ul>
+                <div class="bottom-nav">
+                  <span class="active">Home</span>
+                  <span>Library</span>
+                  <span>Assistant</span>
+                  <span>Profile</span>
+                </div>
+              </section>
+
+              <section class="app-screen" data-screen="assistant">
+                <div class="app-header">
+                  <div>
+                    <p class="muted">AI Voice Assistant</p>
+                    <h3>Ask CodeCore</h3>
+                  </div>
+                  <div class="signal-dot"></div>
+                </div>
+                <div class="assistant-panel">
+                  <div class="chat-bubble ai">
+                    Explain recursion like I’m preparing for tomorrow’s exam.
+                  </div>
+                  <div class="chat-bubble user">
+                    Think of recursion as a function solving a small part and calling itself for the
+                    rest, until it reaches a simple stopping rule called the base case.
+                  </div>
+                  <div class="insight-card">
+                    <span>Quick help</span>
+                    <strong>Base case + smaller subproblem + return path</strong>
+                  </div>
+                </div>
+                <div class="mic-ring">
+                  <div class="mic-core">🎙️</div>
+                </div>
+                <p class="assistant-caption">Tap to speak or continue with text prompts.</p>
+              </section>
+
+              <section class="app-screen" data-screen="course">
+                <div class="course-hero">
+                  <p class="muted">Course detail</p>
+                  <h3>Introduction to Algorithms</h3>
+                  <span class="rating">★ 4.9 • 42 lessons</span>
+                </div>
+                <div class="syllabus-card">
+                  <div>
+                    <p class="muted">Current lesson</p>
+                    <strong>Greedy strategy essentials</strong>
+                  </div>
+                  <span>76%</span>
+                </div>
+                <div class="module-list">
+                  <article>
+                    <strong>Module 1</strong>
+                    <span>Complexity and efficiency</span>
+                  </article>
+                  <article class="active-module">
+                    <strong>Module 2</strong>
+                    <span>Sorting and searching</span>
+                  </article>
+                  <article>
+                    <strong>Module 3</strong>
+                    <span>Graphs and traversal</span>
+                  </article>
+                </div>
+                <button class="screen-button">Resume lesson</button>
+              </section>
+
+              <section class="app-screen" data-screen="profile">
+                <div class="profile-top">
+                  <div class="profile-avatar">A</div>
+                  <div>
+                    <h3>Ada Lovelace</h3>
+                    <p class="muted">Student • Computer Science Track</p>
+                  </div>
+                </div>
+                <div class="profile-grid">
+                  <article>
+                    <strong>18</strong>
+                    <span>Saved resources</span>
+                  </article>
+                  <article>
+                    <strong>7</strong>
+                    <span>Day streak</span>
+                  </article>
+                  <article>
+                    <strong>12</strong>
+                    <span>Downloads</span>
+                  </article>
+                  <article>
+                    <strong>3</strong>
+                    <span>Certificates</span>
+                  </article>
+                </div>
+                <div class="downloads-card">
+                  <p class="muted">Available offline</p>
+                  <ul>
+                    <li>Operating Systems revision pack</li>
+                    <li>SQL joins quick reference</li>
+                    <li>Discrete math formula sheet</li>
+                  </ul>
+                </div>
+                <div class="bottom-nav">
+                  <span>Home</span>
+                  <span>Library</span>
+                  <span>Assistant</span>
+                  <span class="active">Profile</span>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <aside class="screen-details">
+            <article class="detail-card active" data-screen="welcome">
+              <span>Welcome screen</span>
+              <h3>Confirms installation and sets the product tone.</h3>
+              <p>
+                Uses a bold headline, feature chips, and a clear CTA to mimic the first screen a user
+                would see when opening the Android app.
+              </p>
+            </article>
+            <article class="detail-card" data-screen="home">
+              <span>Learning dashboard</span>
+              <h3>Shows progress, recommendations, and resume-ready study cards.</h3>
+              <p>
+                This screen showcases how a student can jump back into lessons, search content, and
+                track weekly momentum.
+              </p>
+            </article>
+            <article class="detail-card" data-screen="assistant">
+              <span>AI assistance</span>
+              <h3>Highlights voice-first learning support.</h3>
+              <p>
+                A glowing mic ring and conversational panel communicate the Gemini-style assistant
+                experience described in the project docs.
+              </p>
+            </article>
+            <article class="detail-card" data-screen="course">
+              <span>Course detail</span>
+              <h3>Makes structured study paths feel actionable.</h3>
+              <p>
+                The lesson progression and module list help visitors imagine how the Android app keeps
+                learners on track.
+              </p>
+            </article>
+            <article class="detail-card" data-screen="profile">
+              <span>Profile & downloads</span>
+              <h3>Reinforces retention with streaks, saves, and offline content.</h3>
+              <p>
+                This page rounds out the installed-app story by showing continuity, personalization,
+                and accessible resources.
+              </p>
+            </article>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer shell">
+      <p>CodeCore app showcase • Static website demo for the Android app experience.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

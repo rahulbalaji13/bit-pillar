@@ -107,6 +107,18 @@ app/
 
 For detailed setup instructions, see **[QUICK_START.md](QUICK_START.md)**
 
+## 🌐 Website Showcase
+
+A ready-to-open static website is now included under `website/`. It presents attractive simulated Android app screens for CodeCore in the browser.
+
+```bash
+open website/index.html
+# or
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000/website/` in your browser.
+
 ## 📖 Documentation
 
 | Document | Description |
