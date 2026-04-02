@@ -1,7 +1,7 @@
-# CodeCore - Project README
+# MergeCore - Project README
 
 ## 📱 Overview
-**CodeCore** is a comprehensive Android application designed to revolutionize computer science education through AI-powered learning, curated content management, and an intuitive user experience.
+**MergeCore** is a comprehensive Android application designed to revolutionize computer science education through AI-powered learning, curated content management, and an intuitive user experience.
 
 ## ✨ Key Features
 
